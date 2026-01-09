@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHREE KUMAR M | Java Full Stack Developer</title>
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo">Portfolio</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button id="theme-toggle" aria-label="Toggle Dark Mode">
+            <i class="fas fa-moon"></i>
+          </button>
+          <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="mobile-nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <header class="hero" id="home">
+      <div class="hero-content">
+        <div class="profile-img-container">
+          <img src="assets/PP.JPG" alt="Profile Picture" class="profile-img" />
+        </div>
+        <h1>
+          Hello, I'm <span class="typing-text"></span
+          ><span class="cursor">|</span>
+        </h1>
+        <p class="subtitle">Java Full Stack Developer</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">Contact Me</a>
+          <a
+            href="#"
+            class="btn btn-secondary"
+            onclick="window.open('./assets/resume.pdf')"
+            >Download Resume</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+          Java Full Stack Developer skilled in Java, Spring Boot, Hibernate,
+          RESTful APIs, and PostgreSQL. Experienced in developing, testing, and
+          cloud deploying full-stack web applications using MVC, Microservice
+          architecture with a focus on performance, scalability, and clean code
+          practices
+        </p>
+
+        <div class="timeline-section">
+          <h3 class="timeline-title">
+            <i class="fas fa-graduation-cap"></i> Education
+          </h3>
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h4>B.E (Electrical and Electronics)</h4>
+                <p class="institution">
+                  ARUNAI ENGINEERING COLLEGE, Tiruvannamalai, Tamil Nadu
+                </p>
+                <p class="period">April 2021 - Aug 2025</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Frontend</h3>
+            <div class="skill-tags">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>Bootstrap</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-server"></i> Backend</h3>
+            <div class="skill-tags">
+              <span>Java 8</span>
+              
+              <span>Spring Boot</span>
+              <span>Spring Web</span>
+              <span>Spring Data JPA</span>
+              <span>Spring Security</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-database"></i> Database</h3>
+            <div class="skill-tags">
+              <span>MySQL</span>
+              <span>PostgreSQL</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-tools"></i> Tools & OS</h3>
+            <div class="skill-tags">
+              <span>Postman</span>
+              <span>Swagger (Open API)</span>
+              <span>JUnit</span>
+              <span>Mockito</span>
+              <span>Linux OS</span>
+              <span>Docker</span>
+              <span>Git</span>
+              <span>GitHub</span>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3><i class="fas fa-layer-group"></i> Architecture & Others</h3>
+            <div class="skill-tags">
+              <span>MVC</span>
+              <span>Microservices</span>
+              <span>Maven</span>
+              <span>Gradle</span>
+              <span>REST APIs</span>
+              <span>Render</span>
+              <span>Gen AI</span>
+              <span>VS Code</span>
+              <span>IntelliJ IDEA</span>
+              <span>Eclipse</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-img-container">
+              <img
+                src="assets/Ecom.png"
+                alt="Ecommerce Website"
+                class="project-img"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Ecommerce Website</h3>
+              <p class="project-tech">
+                HTML | CSS | Thymeleaf | Java | Spring Boot | Postman |
+                PostgreSQL
+              </p>
+              <ul>
+                <li>Built secure JWT-based Spring Boot auth with RBAC.</li>
+                <li>Developed backend with JPA, PostgreSQL, and JAVA Mail.</li>
+                <li>Containerized and deployed on Render using Docker.</li>
+              </ul>
+
+              <div class="project-links">
+                <a href="https://github.com/Shreekumar-Git/EcommerceWebsite" target="_blank"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+             
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img-container">
+              <img
+                src="assets/mtb.png"
+                alt="Movie Ticket Booking"
+                class="project-img"
+              />
+            </div>
+            <div class="project-content">
+              <h3>Movie Ticket Booking</h3>
+              <p class="project-tech">
+                HTML | CSS | JavaScript | Java | Spring Boot | Postman |
+                PostgreSQL
+              </p>
+         
+              <ul>
+                <li>
+                  Built a full-stack Ticket Booking Website with Spring Security and JWT-based
+                  authentication.
+                </li>
+                <li>
+                  Implemented CRUD workflows for adding movies and management.
+                </li>
+                <li>
+                  Containerized the application with Docker and deployed it on
+                  Render.
+                </li>
+              </ul>
+
+              <div class="project-links">
+                <a
+                  href="https://github.com/Shreekumar-Git/movieticket"
+                  target="_blank"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+               
+              </div>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-img-container">
+              <img
+                src="assets/re.png"
+                alt="RealNest"
+                class="project-img"
+              />
+            </div>
+            <div class="project-content">
+              <h3>RealNest</h3>
+              <p class="project-tech">
+                HTML | Tailwind CSS | JavaScript | Java | Spring Boot | Swagger
+                | PostgreSQL
+              </p>
+          
+              <ul>
+                <li>
+                  Built Real Estate listing platform for listing and searching properties for sales and renting.
+                </li>
+                <li>
+                  Used Copilot and AI workflows to improve coding accuracy.
+                </li>
+                <li>
+                  Deployed with Docker on Render for scalable, smooth
+                  performance.
+                </li>
+              </ul>
+
+              <div class="project-links">
+                <a href="https://github.com/Shreekumar-Git/RealNest" target="_blank"
+                  ><i class="fab fa-github"></i> Code</a
+                >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+          <p>
+            Feel free to reach out for collaborations or just a friendly hello!
+          </p>
+          <div class="contact-links">
+            <a href="mailto:shree181203@gmail.com" class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>shree181203@gmail.com</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/shree-kumar-m/"
+              target="_blank"
+              class="contact-item"
+            >
+              <i class="fab fa-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a
+              href="https://github.com/Shreekumar-Git"
+              target="_blank"
+              class="contact-item"
+            >
+              <i class="fab fa-github"></i>
+              <span>GitHub</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 SHREEKUMAR M. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
